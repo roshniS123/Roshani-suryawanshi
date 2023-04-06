@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite123]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testclass.TestingLoginpage">
+        <methods>
+          <include name="Gotoforgottpassward"/>
+          <include name="Openthechrome"/>
+          <include name="Verifyforgottpassward"/>
+          <include name="test2"/>
+          <include name="LogutFromApplication"/>
+          <include name="Test3"/>
+          <include name="ClosedBrowser"/>
+        </methods>
+      </class> <!-- Testclass.TestingLoginpage -->
+      <class name="Testclass.TestngForgottpassward">
+        <methods>
+          <include name="test2"/>
+          <include name="Openthechrome"/>
+          <include name="LogutFromApplication"/>
+          <include name="Verifyforgottpassward"/>
+          <include name="Gotoforgottpassward"/>
+          <include name="ClosedBrowser"/>
+        </methods>
+      </class> <!-- Testclass.TestngForgottpassward -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite123] -->
