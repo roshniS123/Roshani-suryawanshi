@@ -63,10 +63,10 @@ public class Loginpage {
 	{
 	  Canclebutton.click();	
 	}
-	//public void CreateNewAcc ()
-	//{
-		//CreateNewAcc.click();	
-	//}
+	public void CreateNewAcc ()
+	{
+	  CreateNewAcc.click();	
+	}
 
 }
 
